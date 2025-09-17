@@ -27,3 +27,19 @@ def odd_or_even(x):
        print("odd")
 odd_or_even(19)
 
+bill = int(input("How much was your bill?"))
+values = ["great", "good", "okay", "bad"]
+values = input("How was your experience here? Please answer with one of the following: great, good, okay, bad")
+def total():
+    if values == "great":
+        print(bill * 1.25)
+    if values == "good":
+        print(bill * 1.20)
+    if values == "okay":
+        print(bill * 1.15)
+    if values == "bad":
+        print(bill * 1.00)
+
+total()
+
+
