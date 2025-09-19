@@ -53,11 +53,8 @@ print(number(factors)) """
 gcf = int(input("type in any whole numbers"))
 def common(x , y):
     list = []
-    for i in range(1, x + 1):
-        if x % i == 0:
-            list.append(i)
-    list = []
-    for i in range(1, y + 1):
-        if y % i == 0:
-            list.append(i)
-print(common)
+    if x % 2 == 0 and y % 2 == 0:
+     if x % 4 == 0 and y % 4 == 0:
+        list.append()
+    return(list)
+print(common(gcf))
