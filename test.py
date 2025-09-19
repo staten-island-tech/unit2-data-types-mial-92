@@ -41,11 +41,23 @@ def total():
         print(bill * 1.00)
 total()
  """
-factors = int(input("Type any number(has to be a whole number"))
+""" factors = int(input("Type any number(has to be a whole number"))
 def number(x):
     list = []
     for i in range(1, x + 1):
         if x % i == 0:
             list.append(i)
     return(list)
-print(number(factors))
+print(number(factors)) """
+
+gcf = int(input("type in any whole numbers"))
+def common(x , y):
+    list = []
+    for i in range(1, x + 1):
+        if x % i == 0:
+            list.append(i)
+    list = []
+    for i in range(1, y + 1):
+        if y % i == 0:
+            list.append(i)
+print(common)
