@@ -50,11 +50,12 @@ def number(x):
     return(list)
 print(number(factors)) """
 
-gcf = int(input("type in any whole numbers"))
+gcf = int(input("type in one number"))
+gcf2 = int(input("type in another number greater than the previous number"))
 def common(x , y):
     list = []
-    if x % 2 == 0 and y % 2 == 0:
-     if x % 4 == 0 and y % 4 == 0:
-        list.append()
+    for i in range(1,x):
+            if x % i == 0 and y % i == 0:
+             list.append(i)
     return(list)
-print(common(gcf))
+print(common(gcf , gcf2))
